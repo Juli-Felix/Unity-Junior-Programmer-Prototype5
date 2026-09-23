@@ -67,5 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Prototype 5.slnx"
+    "dotnet.defaultSolution": "Prototype 5.slnx",
+    "workbench.colorTheme": "Abyss"
 }

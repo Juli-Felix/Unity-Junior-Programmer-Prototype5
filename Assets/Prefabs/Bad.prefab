@@ -14,6 +14,7 @@ GameObject:
   - component: {fileID: 6324406025960395163}
   - component: {fileID: 7915970200483750654}
   - component: {fileID: 2103797110878454567}
+  - component: {fileID: 23248922555337112}
   m_Layer: 0
   m_Name: Bad
   m_TagString: Untagged
@@ -163,3 +164,15 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 0.25743327
   m_Center: {x: -0.0036430836, y: 0.04436488, z: 0.000000047683717}
+--- !u!114 &23248922555337112
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6971356335343756509}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 477ede763756cf5ffa7446ef33bec1fd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::Target
