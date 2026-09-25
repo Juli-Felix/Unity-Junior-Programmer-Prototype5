@@ -60,13 +60,13 @@
         "*.asset": "yaml",
         "*.meta": "yaml",
         "*.prefab": "yaml",
-        "*.unity": "yaml",
+        "*.unity": "yaml"
     },
     "explorer.fileNesting.enabled": true,
     "explorer.fileNesting.patterns": {
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Prototype 5.slnx",
+    "dotnet.defaultSolution": "Unity-Junior-Programmer-Prototype5.slnx",
     "workbench.colorTheme": "Abyss"
 }
