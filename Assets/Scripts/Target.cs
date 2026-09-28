@@ -34,9 +34,13 @@ public class Target : MonoBehaviour
                 // If ray hit this enemy, destroy it
                 if (hit.transform == transform)
                 {
-                    Destroy(gameObject);
-                    Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
-                    gameManager.UpdateScore(pointValue);
+                    if (gameManager.isGameActive)
+                    {
+                        Destroy(gameObject);
+                        Instantiate(explosionParticle, transform.position, explosionParticle.transform.rotation);
+                        gameManager.UpdateScore(pointValue);
+                    }
+                    
                 }
             }
         }
@@ -62,6 +66,10 @@ public class Target : MonoBehaviour
         if (other.CompareTag("DestroyZone"))
         {
             Destroy(gameObject);
+            if (!gameObject.CompareTag("Bad"))
+            {
+                gameManager.GameOver();
+            }
         }
     }
 }
