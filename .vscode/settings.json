@@ -67,6 +67,6 @@
         "*.sln": "*.csproj",
         "*.slnx": "*.csproj"
     },
-    "dotnet.defaultSolution": "Unity-Junior-Programmer-Prototype5.slnx",
+    "dotnet.defaultSolution": "Prototype 5.slnx",
     "workbench.colorTheme": "Abyss"
 }
